@@ -1,0 +1,41 @@
+{% extends 'layout.html' %} {% block body %}
+
+<section class="blog py-5">
+    <div class="container py-md-1">
+        <h3 class="heading mb-sm-5 mb-4 text-center"> Our Success</h3>
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="{{ url_for('static', filename='images/farmer1.jpg') }}"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Sachin Kale</h5>
+                    <p class="card-text"> In 2014, Sachin Kale established Innovative Agrilife Solutions Pvt. Ltd that supported farmers through a farming model based on contract. Furthermore, witnessing the fact that paddy fields are used only for around 3 to 4 months after which they are left unused, another idea struck his mind. Sachin Kale suggested the farmers to use the land during that period to grow seasonal vegetables</p>
+
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="{{ url_for('static', filename='images/farmer2.jpg') }}"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Vishwanath Bobhade</h5>
+                    <p class="card-text"> A farmer from Bahirwadi, Vishwanath’s village is in the drought-prone Beed district of Maharashtra. However, he has earned Rs 7 lakh from farming on just one acre of land! Vishwanath decided to give multi-cropping a try, and he also figured out that he could increase his crop by building a wire fence and planting creepers and climbers on them. </p>
+
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="{{ url_for('static', filename='images/farmer3.jpg') }}"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Rajiv Bittu</h5>
+                    <p class="card-text">TA chartered accountant (CA) by profession and a farming entrepreneur by passion, Bittu likes to spend more time in the fields than sitting within the four walls of his office. His penchant for farming is now taking him to places, establishing him as one of the pioneers of farming entrepreneurship in the state. Employing more than 60 unemployed locals, the start-up has become a model for aspiring entrepreneurs who visit him regularly to emulate his success story. He is a visiting faculty for various agricultural institutes. </p>
+                     
+                </div>
+            </div>
+        </div>
+    </div>
+    <p>Share your Success Story with us at<br>
+        <a href="mailto:sumitgaikwad284@example.com">sumitgaikwad284@example.com</a></p>
+</section>
+ 
+</html>
+{% endblock %}

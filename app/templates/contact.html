@@ -1,0 +1,103 @@
+{% extends 'layout.html' %} {% block body %}
+
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /* Add padding to containers */
+    .container {
+        padding: 16px;
+
+    }
+
+    /* Full-width input fields */
+    input[type=text],
+    input[type=password] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+    }
+
+    input[type=text]:focus,
+    input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+    }
+
+    /* Overwrite default styles of hr */
+    hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+    }
+
+    /* Set a style for the submit button */
+    .registerbtn {
+        background-color: #04AA6D;
+        color: white;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+    }
+
+    .registerbtn:hover {
+        opacity: 1;
+    }
+
+    /* Add a blue text color to links */
+    a {
+        color: dodgerblue;
+    }
+
+    /* Set a grey background color and center the text of the "sign in" section */
+    .signin {
+        background-color: #f1f1f1;
+        text-align: center;
+    }
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <form name="stdreg" action="submit.html">
+            <div class="row">
+                <div class="col-20"><label>Name:</label></div>
+                <div class="col-80"><input type="text" name="fname" placeholder="Enter your firstname"></div>
+            </div>
+            <div class="row">
+                <div class="col-20"><label>Email:</label></div>
+                <div class="col-80"><input type="text" name="uemail" placeholder="Enter your email id"></div>
+            </div>
+            <div class="row">
+                <div class="col-20"><label>Query:</label></div>
+                <div class="col-80"><input type="text" name="query" placeholder="Enter your Query"></div>
+            </div>
+             <div class="row">
+                <input class="submit" type="submit" value="Submit" onclick="Warn();">
+            </div>
+            
+        </form>
+    </div>
+</body>
+<div>
+
+    <script>
+        function Warn() {
+           
+            document.write("<h1>THANK YOU !!</h1><p> We recieve your query. We'll reach at you very soon !!</p>");
+        }
+    </script>
+
+</div>
+{% endblock %}
