@@ -79,7 +79,7 @@ Note that, for now it only supports following crops
 
 - ### Crop recommendation system
 
-![demo](https://media.giphy.com/media/90JbjdAa5nDq3TJh5u/giphy.gif)
+![demo](https://github.com/sumitgaikwad284/agrotech/blob/main/app/static/images/Screenshot%20(166).png)
 
 - ### Fertilizer suggestion system
 
