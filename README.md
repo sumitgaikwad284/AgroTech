@@ -2,6 +2,36 @@
 #### A simple ML and DL based website which recommends the best crop to grow, fertilizers to use and the diseases caught by your crops.
  
 
+## DEMO 
+
+- ### Home
+
+![demo](https://github.com/sumitgaikwad284/agrotech/blob/main/app/static/images/Screenshot%20(166).png)
+
+- ### Features
+
+![demo](https://github.com/sumitgaikwad284/agrotech/blob/main/app/static/images/Screenshot%20(167).png)
+
+- ### Crop Prediction
+![demo](https://github.com/sumitgaikwad284/agrotech/blob/main/app/static/images/Screenshot%20(168).png)
+
+![demo](https://github.com/sumitgaikwad284/agrotech/blob/main/app/static/images/Screenshot%20(175).png)
+
+- ### Fertilizer Prediction
+![demo](https://github.com/sumitgaikwad284/agrotech/blob/main/app/static/images/Screenshot%20(169).png)
+![demo](https://github.com/sumitgaikwad284/agrotech/blob/main/app/static/images/Screenshot%20(174).png)
+
+- ### Disease Predicition
+![demo](https://github.com/sumitgaikwad284/agrotech/blob/main/app/static/images/Screenshot%20(171).png)
+
+![demo](https://github.com/sumitgaikwad284/agrotech/blob/main/app/static/images/Screenshot%20(170).png)
+
+- ### Reviews
+![demo](https://github.com/sumitgaikwad284/agrotech/blob/main/app/static/images/Screenshot%20(172).png)
+
+- ### About
+![demo](https://github.com/sumitgaikwad284/agrotech/blob/main/app/static/images/Screenshot%20(173).png)
+
 ## DISCLAIMER ⚠️
 This is a POC(Proof of concept) kind-of project. The data used here comes up with no guarantee from the creator. So, don't use it for making farming decisions. If you do so, the creator is not responsible for anything. However, this project presents the idea that how we can use ML/DL into precision farming if developed at large scale and with authentic and verified data.
 
@@ -74,21 +104,7 @@ Note that, for now it only supports following crops
 - Raspberry
 </details>
 
-
-## DEMO 
-
-- ### Crop recommendation system
-
-![demo](https://github.com/sumitgaikwad284/agrotech/blob/main/app/static/images/Screenshot%20(166).png)
-
-- ### Fertilizer suggestion system
-
-![demo](https://media.giphy.com/media/FLftUXMFo8N2bBjAXq/giphy.gif)
-
-
-- ### Disease Detection system
-![demo](https://media.giphy.com/media/NnMwEp2tGZdfnJbyjr/giphy.gif)
-
+ 
  
 ## Usage 
 You can use this project for further developing it and adding your work in it. If you use this project, kindly mention the original source of the project and mention the link of this repo in your report.
